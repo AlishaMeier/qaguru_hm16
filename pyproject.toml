@@ -1,0 +1,23 @@
+[project]
+name = "qaguru-hm16"
+version = "0.1.0"
+description = "Homework_lesson_16_QAGURU"
+authors = [
+    { name = "Alisha Meier", email = "alisha.meyerr@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pytest (>=8.4.2,<9.0.0)",
+    "selene (>=1.0.2,<2.0.0)"
+]
+package-mode = false
+
+[dependency-groups]
+dev = [
+    "pylint (>=3.3.9,<4.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
